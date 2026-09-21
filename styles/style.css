@@ -178,6 +178,17 @@ header:last-child{
     display: flex;
     justify-content: center;
 }
+.maakselscontainer{
+    perspective: 500px;
+}
+.maaksel{
+    transform: rotateY(0deg);
+    transition:transform 0.5s;
+}
+.maaksel:hover{
+    transform: rotateY(25deg);
+}
+
 
 footer{
     height: 200px;
